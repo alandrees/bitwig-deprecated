@@ -1,2 +1,701 @@
 #!/bin/bash
 
+clear
+
+echo "=========================================================================="
+echo "BITWIG DEPRECATED FUNCTION SCANNER"
+echo "=========================================================================="
+echo
+echo
+echo
+
+grep="grep --line-number --with-filename "
+
+
+
+#Application.addSelectedModeObserver
+
+fn="addSelectedModeObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Application.addSelectedModeObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Application.nextPerspective
+fn="nextPerspective"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Application.nextPerspective"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+
+#Application.previousPerspective
+fn="previousPerspective"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Application.previousPerspective"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Application.setPerspective
+fn="setPerspective"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Application.setPerspective"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.addCueMarkerVisibilityObserver
+fn="addCueMarkerVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.addCueMarkerVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.addPlaybackFollowObserver
+fn="addCueMarkerVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.addCueMarkerVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.addTrackRowHeightObserver
+fn="addTrackRowHeightObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.addTrackRowHeightObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.toggleCueMarkerVisibility
+fn="toggleCueMarkerVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.toggleCueMarkerVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.togglePlaybackFollow
+fn="togglePlaybackFollow"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.togglePlaybackFollow"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Arranger.toggleTrackRowHeight
+fn="toggleTrackRowHeight"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.toggleTrackRowHeight"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#BeatTime.addRawValueObserver
+fn="addRawValueObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.addRawValueObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#BeatTime.incRaw
+fn="incRaw"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "BeatTime.incRaw"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#BeatTime.setRaw
+fn="setRaw"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "BeatTime.setRaw"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#ClipLauncherSlots.addIsQueuedObserver
+fn="addIsQueuedObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "ClipLauncherSlots.addIsQueuedObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#DeviceChain.addIsSelectedObserver
+fn="addIsSelectedObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "DeviceChain.addIsSelectedObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#DeviceChain.select
+fn="select"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "DeviceChain.select"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createApplicationSection
+fn="createApplicationSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createApplicationSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createArrangerSection
+fn="createArrangerSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Arranger.createArrangerSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createCursorClipSection
+fn="createCursorClipSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createCursorClipSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createCursorDeviceSection
+fn="createCursorDeviceSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createCursorDeviceSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createCursorTrack
+fn="createCursorTrack"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createCursorTrack"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createCursorTrackSection
+fn="createCursorTrackSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createCursorTrackSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createEffectTrackBankSection
+fn="createEffectTrackBankSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createEffectTrackBankSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createGrooveSection
+fn="createGrooveSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createGrooveSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createMainTrackBankSection
+fn="createMainTrackBankSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createMainTrackBankSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createMasterTrackSection
+fn="createMasterTrackSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createMasterTrackSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createMixerSection
+fn="createMixerSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createMixerSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createTrackBankSection
+fn="createTrackBankSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createTrackBankSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createTransportSection
+fn="createTransportSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createTransportSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.createUserControlsSection
+fn="createUserControlsSection"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.createUserControlsSection"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.defineController
+fn="defineController"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.defineController"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Host.defineSysexDiscovery
+fn="defineSysexDiscovery"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Host.defineSysexDiscovery"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addClipLauncherSectionVisibilityObserver
+fn="addClipLauncherSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addClipLauncherSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addCrossFadeSectionVisibilityObserver
+fn="addCrossFadeSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addCrossFadeSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addDeviceSectionVisibilityObserver
+fn="addDeviceSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addDeviceSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addIoSectionVisibilityObserver
+fn="addIoSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addIoSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addMeterSectionVisibilityObserver
+fn="addMeterSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addMeterSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.addSendsSectionVisibilityObserver
+fn="addSendsSectionVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addSendsSectionVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleClipLauncherSectionVisibility
+fn="addCueMarkerVisibilityObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.addCueMarkerVisibilityObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleCrossFadeSectionVisibility
+fn="toggleCrossFadeSectionVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.toggleCrossFadeSectionVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleDeviceSectionVisibility
+fn="toggleDeviceSectionVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.toggleDeviceSectionVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleIoSectionVisibility
+fn="toggleIoSectionVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.toggleIoSectionVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleMeterSectionVisibility
+fn="toggleMeterSectionVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.toggleMeterSectionVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Mixer.toggleSendsSectionVisibility
+fn="toggleSendsSectionVisibility"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Mixer.toggleSendsSectionVisibility"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Track.getClipLauncher
+fn="getClipLauncher"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Track.getClipLauncher"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Track.getPrimaryDevice
+fn="getPrimaryDevice"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Track.getPrimaryDevice"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#Track.getPrimaryInstrument
+fn="getPrimaryInstrument"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "Track.getPrimaryInstrument"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.addCanScrollTracksDownObserver
+fn="addCanScrollTracksDownObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.addCanScrollTracksDownObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.addCanScrollTracksUpObserver
+fn="addCanScrollTracksUpObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.addCanScrollTracksUpObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.addTrackScrollPositionObserver
+fn="addTrackScrollPositionObserver"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.addTrackScrollPositionObserver"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.getTrack
+fn="getTrack"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.getTrack"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.scrollToTrack
+fn="scrollToTrack"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.scrollToTrack"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.scrollTracksDown
+fn="scrollTracksDown"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.scrollTracksDown"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.scrollTracksPageDown
+fn="scrollTracksPageDown"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.scrollTracksPageDown"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.scrollTracksPageUp
+fn="scrollTracksPageUp"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.scrollTracksPageUp"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+#TrackBank.scrollTracksUp
+fn="scrollTracksUp"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.scrollTracksUp"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
+
+
+#TrackBank.setTrackScrollStepSize
+fn="setTrackScrollStepSize"
+
+if [ -n "$($grep $fn ./*.js)" ]
+then
+    echo "-----------------------------------"
+    echo "TrackBank.setTrackScrollStepSize"
+    echo "-----------------------------------"
+
+    $grep $fn ./*.js
+fi
