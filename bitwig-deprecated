@@ -546,13 +546,13 @@ fi
 #Track.getClipLauncher
 fn="getClipLauncher"
 
-if [ -n "$($grep $fn ./*.js)" ]
+if [ -n "$($grep $fn ./*.js | grep -v getClipLauncherSlots)" ]
 then
     echo "-----------------------------------"
     echo "Track.getClipLauncher"
     echo "-----------------------------------"
 
-    $grep $fn ./*.js
+    $grep $fn ./*.js | grep -v getClipLauncherSlots
 fi
 
 #Track.getPrimaryDevice
