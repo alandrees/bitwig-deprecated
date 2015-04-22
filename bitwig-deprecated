@@ -198,13 +198,13 @@ fi
 #DeviceChain.select
 fn="select"
 
-if [ -n "$($grep $fn ./*.js)" ]
+if [ -n "$($grep $fn ./*.js | grep -v selected | grep -v selectInEditor)" ]
 then
     echo "-----------------------------------"
     echo "DeviceChain.select"
     echo "-----------------------------------"
 
-    $grep $fn ./*.js
+    $grep $fn ./*.js | grep -v selected | grep -v selectInEditor
 fi
 
 #Host.createApplicationSection
